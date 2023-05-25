@@ -83,7 +83,7 @@ exports.imageUpload = async (req, res) => {
         console.error(error);
         res.status(400).json({
             success: false,
-            message: 'Something went wrong',
+            message: 'Something went wrongg',
         });
 
     }
